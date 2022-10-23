@@ -16,9 +16,9 @@ return {
                 Speed_Increase=120
             },
             Sounds={"PlaySounds", "Footsteps"},
-            WaitTime=5,
+            WaitTime=0,
             Shaking={
-                Enabled=false,
+                Enabled=true,
                 Config={15,8.8,0,2,1,6},
                 ActivateAtStuds=35
             }
