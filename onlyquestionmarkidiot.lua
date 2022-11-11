@@ -18,7 +18,7 @@ local entity = Creator.createEntity({
     Cycles = {
         Min = 4,
         Max = 7,
-        WaitTime = 1,
+        WaitTime = 0.3,
     },
     CamShake = {
         true, -- Enabled/Disabled
