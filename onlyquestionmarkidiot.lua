@@ -1,3 +1,5 @@
+local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
+
 if not entityTable then getgenv().entityTable={} end
 return {
     createEntity=function(name)
@@ -7,6 +9,8 @@ return {
             FlickerLenght=1,
             Model=nil,
             Height=5.2,
+            CanKill = true,
+            KillRange = 50,
             Ambush={
                 Enabled=false,
                 MinCycles=4,
