@@ -60,7 +60,7 @@ local Entities = {
 
 			local early, latest = SpawnerLibrary.Calculate()
 
-			val.Value = early.Nodes["0"].CFrame + Vector3.new(0,5,0)
+			val.Value = early.Nodes["1"].CFrame + Vector3.new(0,5,0)
 
 			local anim = Instance.new("Animation")
 			anim.AnimationId = "rbxassetid://9896641335"
