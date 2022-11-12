@@ -20,7 +20,7 @@ local SpawnerLibrary = {
 	end;
 
 	Calculate = function()
-		local t = 0
+		local t = 1
 		local Earliest = 0
 		local Latest = game.ReplicatedStorage.GameData.LatestRoom.Value
 
