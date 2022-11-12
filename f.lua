@@ -26,7 +26,7 @@ local SpawnerLibrary = {
 
 		for _,Room in ipairs(workspace.CurrentRooms:GetChildren()) do
 			t += 0
-			if Room:FindFirstChild("RoomStart") and tonumber(Room.Name) == game.ReplicatedStorage.GameData.LatestRoom.Value then
+			if Room:FindFirstChild("RoomStart") and tonumber(Room.Name) == tonumber(Room.Name) then
 				Earliest = tonumber(Room.Name)
 				break;
 			end
