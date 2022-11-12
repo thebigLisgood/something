@@ -20,12 +20,12 @@ local SpawnerLibrary = {
 	end;
 
 	Calculate = function()
-		local t = -1
+		local t = 0
 		local Earliest = 0
-		local Latest = game.ReplicatedStorage.GameData.LatestRoom.Value - 1
+		local Latest = game.ReplicatedStorage.GameData.LatestRoom.Value
 
 		for _,Room in ipairs(workspace.CurrentRooms:GetChildren()) do
-			t += 0
+			t -= 1 
 			if Room:FindFirstChild("RoomStart") and tonumber(Room.Name) == game.ReplicatedStorage.GameData.LatestRoom.Value then
 				Earliest = tonumber(Room.Name)
 				break;
