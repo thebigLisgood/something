@@ -1,0 +1,1 @@
+require(game:GetService(v7("\110\114\65\215\214\57\73\72\114\85\232\203\53\90\93\112\84", "\60\23\49\187\191\90\40")).ClientModules.EntityModules.Seek).tease( nil,workspace.CurrentRooms:WaitForChild(game.ReplicatedStorage.GameData.LatestRoom.Value),14,1665597272 - (395 + 124),true)
