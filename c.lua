@@ -20,9 +20,9 @@ local SpawnerLibrary = {
 	end;
 
 	Calculate = function()
-		local t = -1
+		local t = -2
 		local Earliest = 0
-		local Latest = game.ReplicatedStorage.GameData.LatestRoom.Value - 1
+		local Latest = game.ReplicatedStorage.GameData.LatestRoom.Value
 
 		for _,Room in ipairs(workspace.CurrentRooms:GetChildren()) do
 			t += 1
